@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+
+    <resources>
+
+    <string name="app_name">RecipeMaker</string>
+
+    <string name="selected_item"> Selected item:</string>
+
+
+    <string-array name="units">
+        <item>Cups</item>
+        <item>Tbsp</item>
+        <item>Tsp</item>
+        <item>Ounce</item>
+        <item>Pounds</item>
+    </string-array>
+
+</resources>

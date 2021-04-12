@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <LinearLayout tools:context=".InputByTextPage" android:orientation="vertical" android:layout_height="wrap_content" android:layout_width="match_parent" xmlns:tools="http://schemas.android.com/tools" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <ScrollView android:layout_height="match_parent" android:layout_width="match_parent">
+
+
+    <LinearLayout android:orientation="vertical" android:layout_height="wrap_content" android:layout_width="match_parent">
+
+
+    <LinearLayout android:orientation="horizontal" android:layout_height="wrap_content" android:layout_width="match_parent">
+
+    <Button android:layout_height="match_parent" android:layout_width="wrap_content" android:textSize="14sp" android:text="Back" android:layout_weight=".1" android:id="@+id/backAPage"/>
+
+    <TextView android:layout_height="match_parent" android:layout_width="wrap_content" android:textSize="36sp" android:text="Create Your Recipe" android:layout_weight=".9" android:id="@+id/yourRecipe" android:textAlignment="center"/>
+
+</LinearLayout>
+
+
+    <LinearLayout android:orientation="horizontal" android:layout_height="wrap_content" android:layout_width="match_parent">
+
+    <TextView android:layout_height="match_parent" android:layout_width="wrap_content" android:textSize="36sp" android:text="Category:" android:id="@+id/category"/>
+
+
+    <LinearLayout android:orientation="vertical" android:layout_height="match_parent" android:layout_width="match_parent">
+
+    <RadioButton android:layout_height="match_parent" android:layout_width="match_parent" android:textSize="30sp" android:text="Beef" android:layout_weight=".5" android:id="@+id/category1" android:textAlignment="center"/>
+
+    <RadioButton android:layout_height="match_parent" android:layout_width="match_parent" android:textSize="30sp" android:text="Chicken" android:layout_weight=".5" android:id="@+id/category2" android:textAlignment="center"/>
+
+    <RadioButton android:layout_height="match_parent" android:layout_width="match_parent" android:textSize="30sp" android:text="Seafood" android:layout_weight=".5" android:id="@+id/category3" android:textAlignment="center"/>
+
+    <RadioButton android:layout_height="match_parent" android:layout_width="match_parent" android:textSize="30sp" android:text="Pasta" android:layout_weight=".5" android:id="@+id/category4" android:textAlignment="center"/>
+
+    <RadioButton android:layout_height="match_parent" android:layout_width="match_parent" android:textSize="30sp" android:text="Soup" android:layout_weight=".5" android:id="@+id/category5" android:textAlignment="center"/>
+
+    <RadioButton android:layout_height="match_parent" android:layout_width="match_parent" android:textSize="30sp" android:text="Salad" android:layout_weight=".5" android:id="@+id/category6" android:textAlignment="center"/>
+
+    <RadioButton android:layout_height="match_parent" android:layout_width="match_parent" android:textSize="30sp" android:text="Vegetable" android:layout_weight=".5" android:id="@+id/category7" android:textAlignment="center"/>
+
+    <RadioButton android:layout_height="match_parent" android:layout_width="match_parent" android:textSize="30sp" android:text="Vegan" android:layout_weight=".5" android:id="@+id/category8" android:textAlignment="center"/>
+
+    <RadioButton android:layout_height="match_parent" android:layout_width="match_parent" android:textSize="30sp" android:text="Dessert" android:layout_weight=".5" android:id="@+id/category9" android:textAlignment="center"/>
+
+    <RadioButton android:layout_height="match_parent" android:layout_width="match_parent" android:textSize="30sp" android:text="Other" android:layout_weight=".5" android:id="@+id/category10" android:textAlignment="center"/>
+
+</LinearLayout>
+
+</LinearLayout>
+
+
+    <LinearLayout android:orientation="horizontal" android:layout_height="wrap_content" android:layout_width="match_parent">
+
+    <TextView android:layout_height="match_parent" android:layout_width="wrap_content" android:textSize="36sp" android:text="Title:" android:layout_weight=".5" android:id="@+id/title"/>
+
+    <EditText android:layout_height="match_parent" android:layout_width="wrap_content" android:text="" android:layout_weight=".5" android:id="@+id/titleName"/>
+
+</LinearLayout>
+
+
+    <LinearLayout android:orientation="horizontal" android:layout_height="wrap_content" android:layout_width="match_parent">
+
+    <TextView android:layout_height="match_parent" android:layout_width="wrap_content" android:textSize="36sp" android:text="Servings:" android:layout_weight=".5" android:id="@+id/scaling"/>
+
+    <EditText android:layout_height="match_parent" android:layout_width="wrap_content" android:text="0" android:layout_weight=".5" android:id="@+id/scale" android:inputType="number" android:ems="10"/>
+
+</LinearLayout>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="match_parent" android:textSize="36sp" android:text="Ingredients:" android:id="@+id/ingredients" android:textAlignment="center"/>
+
+
+    <LinearLayout android:orientation="horizontal" android:layout_height="wrap_content" android:layout_width="match_parent">
+
+
+    <LinearLayout android:orientation="vertical" android:layout_height="wrap_content" android:layout_width="match_parent">
+
+
+    <LinearLayout android:orientation="horizontal" android:layout_height="match_parent" android:layout_width="match_parent">
+
+    <EditText android:layout_height="match_parent" android:layout_width="wrap_content" android:text="0" android:id="@+id/wholeNumber1" android:inputType="number"/>
+
+    <EditText android:layout_height="match_parent" android:layout_width="wrap_content" android:text="0" android:id="@+id/topHalf1" android:inputType="number"/>
+
+    <TextView android:layout_height="match_parent" android:layout_width="wrap_content" android:textSize="36sp" android:text="/" android:id="@+id/divide1"/>
+
+    <EditText android:layout_height="match_parent" android:layout_width="wrap_content" android:text="0" android:id="@+id/bottomHalf1" android:inputType="number"/>
+
+    <Spinner android:layout_height="match_parent" android:layout_width="wrap_content" android:id="@+id/units1"/>
+
+    <EditText android:layout_height="match_parent" android:layout_width="wrap_content" android:text="" android:layout_weight=".3" android:id="@+id/ingredient1" android:hint="ingredient name"/>
+
+</LinearLayout>
+
+
+    <LinearLayout android:orientation="horizontal" android:layout_height="match_parent" android:layout_width="match_parent">
+
+    <EditText android:layout_height="match_parent" android:layout_width="wrap_content" android:text="0" android:id="@+id/wholeNumber2" android:inputType="number"/>
+
+    <EditText android:layout_height="match_parent" android:layout_width="wrap_content" android:text="0" android:id="@+id/topHalf2" android:inputType="number"/>
+
+    <TextView android:layout_height="match_parent" android:layout_width="wrap_content" android:textSize="36sp" android:text="/" android:id="@+id/divide2"/>
+
+    <EditText android:layout_height="match_parent" android:layout_width="wrap_content" android:text="0" android:id="@+id/bottomHalf2" android:inputType="number"/>
+
+    <Spinner android:layout_height="match_parent" android:layout_width="wrap_content" android:id="@+id/units2"/>
+
+    <EditText android:layout_height="match_parent" android:layout_width="wrap_content" android:text="" android:layout_weight=".3" android:id="@+id/ingredient2" android:hint="ingredient name"/>
+
+</LinearLayout>
+
+
+    <LinearLayout android:orientation="horizontal" android:layout_height="match_parent" android:layout_width="match_parent">
+
+    <EditText android:layout_height="match_parent" android:layout_width="wrap_content" android:text="0" android:id="@+id/wholeNumber3" android:inputType="number"/>
+
+    <EditText android:layout_height="match_parent" android:layout_width="wrap_content" android:text="0" android:id="@+id/topHalf3" android:inputType="number"/>
+
+    <TextView android:layout_height="match_parent" android:layout_width="wrap_content" android:textSize="36sp" android:text="/" android:id="@+id/divide3"/>
+
+    <EditText android:layout_height="match_parent" android:layout_width="wrap_content" android:text="0" android:id="@+id/bottomHalf3" android:inputType="number"/>
+
+    <Spinner android:layout_height="match_parent" android:layout_width="wrap_content" android:id="@+id/units3"/>
+
+    <EditText android:layout_height="match_parent" android:layout_width="wrap_content" android:text="" android:layout_weight=".3" android:id="@+id/ingredient3" android:hint="ingredient name"/>
+
+</LinearLayout>
+
+
+    <LinearLayout android:orientation="horizontal" android:layout_height="match_parent" android:layout_width="match_parent">
+
+    <EditText android:layout_height="match_parent" android:layout_width="wrap_content" android:text="0" android:id="@+id/wholeNumber4" android:inputType="number"/>
+
+    <EditText android:layout_height="match_parent" android:layout_width="wrap_content" android:text="0" android:id="@+id/topHalf4" android:inputType="number"/>
+
+    <TextView android:layout_height="match_parent" android:layout_width="wrap_content" android:textSize="36sp" android:text="/" android:id="@+id/divide4"/>
+
+    <EditText android:layout_height="match_parent" android:layout_width="wrap_content" android:text="0" android:id="@+id/bottomHalf4" android:inputType="number"/>
+
+    <Spinner android:layout_height="match_parent" android:layout_width="wrap_content" android:id="@+id/units4"/>
+
+    <EditText android:layout_height="match_parent" android:layout_width="wrap_content" android:text="" android:layout_weight=".3" android:id="@+id/ingredient4" android:hint="ingredient name"/>
+
+</LinearLayout>
+
+
+    <LinearLayout android:orientation="horizontal" android:layout_height="match_parent" android:layout_width="match_parent">
+
+    <EditText android:layout_height="match_parent" android:layout_width="wrap_content" android:text="0" android:id="@+id/wholeNumber5" android:inputType="number"/>
+
+    <EditText android:layout_height="match_parent" android:layout_width="wrap_content" android:text="0" android:id="@+id/topHalf5" android:inputType="number"/>
+
+    <TextView android:layout_height="match_parent" android:layout_width="wrap_content" android:textSize="36sp" android:text="/" android:id="@+id/divide5"/>
+
+    <EditText android:layout_height="match_parent" android:layout_width="wrap_content" android:text="0" android:id="@+id/bottomHalf5" android:inputType="number"/>
+
+    <Spinner android:layout_height="match_parent" android:layout_width="wrap_content" android:id="@+id/units5"/>
+
+    <EditText android:layout_height="match_parent" android:layout_width="wrap_content" android:text="" android:layout_weight=".3" android:id="@+id/ingredient5" android:hint="ingredient name"/>
+
+</LinearLayout>
+
+
+    <LinearLayout android:orientation="horizontal" android:layout_height="match_parent" android:layout_width="match_parent">
+
+    <EditText android:layout_height="match_parent" android:layout_width="wrap_content" android:text="0" android:id="@+id/wholeNumber6" android:inputType="number"/>
+
+    <EditText android:layout_height="match_parent" android:layout_width="wrap_content" android:text="0" android:id="@+id/topHalf6" android:inputType="number"/>
+
+    <TextView android:layout_height="match_parent" android:layout_width="wrap_content" android:textSize="36sp" android:text="/" android:id="@+id/divide6"/>
+
+    <EditText android:layout_height="match_parent" android:layout_width="wrap_content" android:text="0" android:id="@+id/bottomHalf6" android:inputType="number"/>
+
+    <Spinner android:layout_height="match_parent" android:layout_width="wrap_content" android:id="@+id/units6"/>
+
+    <EditText android:layout_height="match_parent" android:layout_width="wrap_content" android:text="" android:layout_weight=".3" android:id="@+id/ingredient6" android:hint="ingredient name"/>
+
+</LinearLayout>
+
+
+    <LinearLayout android:orientation="horizontal" android:layout_height="match_parent" android:layout_width="match_parent">
+
+    <EditText android:layout_height="match_parent" android:layout_width="wrap_content" android:text="0" android:id="@+id/wholeNumber7" android:inputType="number"/>
+
+    <EditText android:layout_height="match_parent" android:layout_width="wrap_content" android:text="0" android:id="@+id/topHalf7" android:inputType="number"/>
+
+    <TextView android:layout_height="match_parent" android:layout_width="wrap_content" android:textSize="36sp" android:text="/" android:id="@+id/divide7"/>
+
+    <EditText android:layout_height="match_parent" android:layout_width="wrap_content" android:text="0" android:id="@+id/bottomHalf7" android:inputType="number"/>
+
+    <Spinner android:layout_height="match_parent" android:layout_width="wrap_content" android:id="@+id/units7"/>
+
+    <EditText android:layout_height="match_parent" android:layout_width="wrap_content" android:text="" android:layout_weight=".3" android:id="@+id/ingredient7" android:hint="ingredient name"/>
+
+</LinearLayout>
+
+
+    <LinearLayout android:orientation="horizontal" android:layout_height="match_parent" android:layout_width="match_parent">
+
+    <EditText android:layout_height="match_parent" android:layout_width="wrap_content" android:text="0" android:id="@+id/wholeNumber8" android:inputType="number"/>
+
+    <EditText android:layout_height="match_parent" android:layout_width="wrap_content" android:text="0" android:id="@+id/topHalf8" android:inputType="number"/>
+
+    <TextView android:layout_height="match_parent" android:layout_width="wrap_content" android:textSize="36sp" android:text="/" android:id="@+id/divide8"/>
+
+    <EditText android:layout_height="match_parent" android:layout_width="wrap_content" android:text="0" android:id="@+id/bottomHalf8" android:inputType="number"/>
+
+    <Spinner android:layout_height="match_parent" android:layout_width="wrap_content" android:id="@+id/units8"/>
+
+    <EditText android:layout_height="match_parent" android:layout_width="wrap_content" android:text="" android:layout_weight=".3" android:id="@+id/ingredient8" android:hint="ingredient name"/>
+
+</LinearLayout>
+
+
+    <LinearLayout android:orientation="horizontal" android:layout_height="match_parent" android:layout_width="match_parent">
+
+    <EditText android:layout_height="match_parent" android:layout_width="wrap_content" android:text="0" android:id="@+id/wholeNumber9" android:inputType="number"/>
+
+    <EditText android:layout_height="match_parent" android:layout_width="wrap_content" android:text="0" android:id="@+id/topHalf9" android:inputType="number"/>
+
+    <TextView android:layout_height="match_parent" android:layout_width="wrap_content" android:textSize="36sp" android:text="/" android:id="@+id/divide9"/>
+
+    <EditText android:layout_height="match_parent" android:layout_width="wrap_content" android:text="0" android:id="@+id/bottomHalf9" android:inputType="number"/>
+
+    <Spinner android:layout_height="match_parent" android:layout_width="wrap_content" android:id="@+id/units9"/>
+
+    <EditText android:layout_height="match_parent" android:layout_width="wrap_content" android:text="" android:layout_weight=".3" android:id="@+id/ingredient9" android:hint="ingredient name"/>
+
+</LinearLayout>
+
+
+    <LinearLayout android:orientation="horizontal" android:layout_height="match_parent" android:layout_width="match_parent">
+
+    <EditText android:layout_height="match_parent" android:layout_width="wrap_content" android:text="0" android:id="@+id/wholeNumber10" android:inputType="number"/>
+
+    <EditText android:layout_height="match_parent" android:layout_width="wrap_content" android:text="0" android:id="@+id/topHalf10" android:inputType="number"/>
+
+    <TextView android:layout_height="match_parent" android:layout_width="wrap_content" android:textSize="36sp" android:text="/" android:id="@+id/divide10"/>
+
+    <EditText android:layout_height="match_parent" android:layout_width="wrap_content" android:text="0" android:id="@+id/bottomHalf10" android:inputType="number"/>
+
+    <Spinner android:layout_height="match_parent" android:layout_width="wrap_content" android:id="@+id/units10"/>
+
+    <EditText android:layout_height="match_parent" android:layout_width="wrap_content" android:text="" android:layout_weight=".3" android:id="@+id/ingredient10" android:hint="ingredient name"/>
+
+</LinearLayout>
+
+
+    <LinearLayout android:orientation="horizontal" android:layout_height="match_parent" android:layout_width="match_parent">
+
+    <EditText android:layout_height="match_parent" android:layout_width="wrap_content" android:text="0" android:id="@+id/wholeNumber11" android:inputType="number"/>
+
+    <EditText android:layout_height="match_parent" android:layout_width="wrap_content" android:text="0" android:id="@+id/topHalf11" android:inputType="number"/>
+
+    <TextView android:layout_height="match_parent" android:layout_width="wrap_content" android:textSize="36sp" android:text="/" android:id="@+id/divide11"/>
+
+    <EditText android:layout_height="match_parent" android:layout_width="wrap_content" android:text="0" android:id="@+id/bottomHalf11" android:inputType="number"/>
+
+    <Spinner android:layout_height="match_parent" android:layout_width="wrap_content" android:id="@+id/units11"/>
+
+    <EditText android:layout_height="match_parent" android:layout_width="wrap_content" android:text="" android:layout_weight=".3" android:id="@+id/ingredient11" android:hint="ingredient name"/>
+
+</LinearLayout>
+
+
+    <LinearLayout android:orientation="horizontal" android:layout_height="match_parent" android:layout_width="match_parent">
+
+    <EditText android:layout_height="match_parent" android:layout_width="wrap_content" android:text="0" android:id="@+id/wholeNumber12" android:inputType="number"/>
+
+    <EditText android:layout_height="match_parent" android:layout_width="wrap_content" android:text="0" android:id="@+id/topHalf12" android:inputType="number"/>
+
+    <TextView android:layout_height="match_parent" android:layout_width="wrap_content" android:textSize="36sp" android:text="/" android:id="@+id/divide12"/>
+
+    <EditText android:layout_height="match_parent" android:layout_width="wrap_content" android:text="0" android:id="@+id/bottomHalf12" android:inputType="number"/>
+
+    <Spinner android:layout_height="match_parent" android:layout_width="wrap_content" android:id="@+id/units12"/>
+
+    <EditText android:layout_height="match_parent" android:layout_width="wrap_content" android:text="" android:layout_weight=".3" android:id="@+id/ingredient12" android:hint="ingredient name"/>
+
+</LinearLayout>
+
+
+    <LinearLayout android:orientation="horizontal" android:layout_height="match_parent" android:layout_width="match_parent">
+
+    <EditText android:layout_height="match_parent" android:layout_width="wrap_content" android:text="0" android:id="@+id/wholeNumber13" android:inputType="number"/>
+
+    <EditText android:layout_height="match_parent" android:layout_width="wrap_content" android:text="0" android:id="@+id/topHalf13" android:inputType="number"/>
+
+    <TextView android:layout_height="match_parent" android:layout_width="wrap_content" android:textSize="36sp" android:text="/" android:id="@+id/divide13"/>
+
+    <EditText android:layout_height="match_parent" android:layout_width="wrap_content" android:text="0" android:id="@+id/bottomHalf13" android:inputType="number"/>
+
+    <Spinner android:layout_height="match_parent" android:layout_width="wrap_content" android:id="@+id/units13"/>
+
+    <EditText android:layout_height="match_parent" android:layout_width="wrap_content" android:text="" android:layout_weight=".3" android:id="@+id/ingredient13" android:hint="ingredient name"/>
+
+</LinearLayout>
+
+
+    <LinearLayout android:orientation="horizontal" android:layout_height="match_parent" android:layout_width="match_parent">
+
+    <EditText android:layout_height="match_parent" android:layout_width="wrap_content" android:text="0" android:id="@+id/wholeNumber14" android:inputType="number"/>
+
+    <EditText android:layout_height="match_parent" android:layout_width="wrap_content" android:text="0" android:id="@+id/topHalf14" android:inputType="number"/>
+
+    <TextView android:layout_height="match_parent" android:layout_width="wrap_content" android:textSize="36sp" android:text="/" android:id="@+id/divide14"/>
+
+    <EditText android:layout_height="match_parent" android:layout_width="wrap_content" android:text="0" android:id="@+id/bottomHalf14" android:inputType="number"/>
+
+    <Spinner android:layout_height="match_parent" android:layout_width="wrap_content" android:id="@+id/units14"/>
+
+    <EditText android:layout_height="match_parent" android:layout_width="wrap_content" android:text="" android:layout_weight=".3" android:id="@+id/ingredient14" android:hint="ingredient name"/>
+
+</LinearLayout>
+
+
+    <LinearLayout android:orientation="horizontal" android:layout_height="wrap_content" android:layout_width="match_parent">
+
+    <EditText android:layout_height="match_parent" android:layout_width="wrap_content" android:text="0" android:id="@+id/wholeNumber15" android:inputType="number"/>
+
+    <EditText android:layout_height="match_parent" android:layout_width="wrap_content" android:text="0" android:id="@+id/topHalf15" android:inputType="number"/>
+
+    <TextView android:layout_height="match_parent" android:layout_width="wrap_content" android:textSize="36sp" android:text="/" android:id="@+id/divide15"/>
+
+    <EditText android:layout_height="match_parent" android:layout_width="wrap_content" android:text="0" android:id="@+id/bottomHalf15" android:inputType="number"/>
+
+    <Spinner android:layout_height="match_parent" android:layout_width="wrap_content" android:id="@+id/units15"/>
+
+    <EditText android:layout_height="match_parent" android:layout_width="wrap_content" android:text="" android:layout_weight=".3" android:id="@+id/ingredient15" android:hint="ingredient name"/>
+
+</LinearLayout>
+
+</LinearLayout>
+
+</LinearLayout>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="match_parent" android:textSize="36sp" android:text="Directions:" android:id="@+id/direct" android:textAlignment="center"/>
+
+    <EditText android:layout_height="wrap_content" android:layout_width="match_parent" android:text="" android:id="@+id/directions"/>
+
+    <Button android:layout_height="wrap_content" android:layout_width="match_parent" android:text="Create Recipe" android:id="@+id/createRecipe"/>
+
+</LinearLayout>
+
+</ScrollView>
+
+</LinearLayout>

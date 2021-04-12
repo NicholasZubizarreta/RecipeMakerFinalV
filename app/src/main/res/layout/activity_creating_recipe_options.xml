@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <LinearLayout tools:context=".CreatingRecipeOptions" android:orientation="vertical" android:layout_height="match_parent" android:layout_width="match_parent" xmlns:tools="http://schemas.android.com/tools" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <LinearLayout android:orientation="horizontal" android:layout_height="wrap_content" android:layout_width="match_parent" android:layout_weight=".1">
+
+    <Button android:layout_height="match_parent" android:layout_width="wrap_content" android:layout_weight=".1" android:text="Home" android:id="@+id/backToHome"/>
+
+    <TextView android:layout_height="match_parent" android:layout_width="wrap_content" android:layout_weight=".9" android:text="Recipe Options" android:id="@+id/recipeOptions" android:textSize="36sp" android:textAlignment="center"/>
+
+</LinearLayout>
+
+    <Button android:layout_height="wrap_content" android:layout_width="match_parent" android:layout_weight=".3" android:text="Input By Typing" android:id="@+id/input" android:textSize="36sp"/>
+
+    <Button android:layout_height="wrap_content" android:layout_width="match_parent" android:layout_weight=".3" android:text="Input By Picture" android:id="@+id/picture" android:textSize="36sp"/>
+
+    <Button android:layout_height="wrap_content" android:layout_width="match_parent" android:layout_weight=".3" android:text="Input From Internet" android:id="@+id/web" android:textSize="36sp"/>
+
+</LinearLayout>
