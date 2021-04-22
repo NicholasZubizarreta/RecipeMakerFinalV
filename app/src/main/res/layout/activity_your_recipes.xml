@@ -57,7 +57,14 @@
 
     <LinearLayout android:orientation="horizontal" android:layout_height="wrap_content" android:layout_width="match_parent">
 
-    <EditText android:layout_height="match_parent" android:layout_width="wrap_content" android:id="@+id/item" android:text="" android:layout_weight=".5" android:textSize="36sp" android:hint="Type Search Here"/>
+        <EditText
+            android:id="@+id/item"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight=".5"
+            android:hint="Search Name or Ingredient"
+            android:text=""
+            android:textSize="30sp" />
 
 </LinearLayout>
     

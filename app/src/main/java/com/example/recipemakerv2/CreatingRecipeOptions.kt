@@ -22,17 +22,6 @@ class CreatingRecipeOptions : AppCompatActivity() {
         button0.setOnClickListener(View.OnClickListener {
             goToInputPage();
         })
-
-//        TODO SAVE PICTURE LAST
-//        TODO BUTTON FOR GOING TO INPUT BY PICTURE
-//        TODO SCANNING PICTURES FOR INFORMATION
-//        TODO FILLING OUT INFORMATION
-//        TODO SIMPLY STORING PICTURE
-//        TODO HAVING RECIPE CREATED
-//        TODO BUTTON FOR INPUTTING FROM INTERNET
-//        TODO ALLOWING INTERNET SEARCHES AND IMPORTS
-//        TODO SCANNING PAGE FOR INFORMATION
-//        TODO FILLING OUT INFORMATION
     }
 
     //    goes back to home in this case

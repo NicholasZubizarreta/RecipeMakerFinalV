@@ -33,8 +33,6 @@ class InputByTextPage : AppCompatActivity() {
         units1.onItemSelectedListener = object :
             AdapterView.OnItemSelectedListener {
             override fun onItemSelected(parent: AdapterView<*>?, view: View?, position: Int, id: Long) {
-                Toast.makeText(this@InputByTextPage, getString(R.string.selected_item) + " " +
-                        "" + units[position], Toast.LENGTH_SHORT).show()
             }
 
             override fun onNothingSelected(parent: AdapterView<*>?) {
@@ -51,8 +49,7 @@ class InputByTextPage : AppCompatActivity() {
         units2.onItemSelectedListener = object :
             AdapterView.OnItemSelectedListener {
             override fun onItemSelected(parent: AdapterView<*>?, view: View?, position: Int, id: Long) {
-                Toast.makeText(this@InputByTextPage, getString(R.string.selected_item) + " " +
-                        "" + units[position], Toast.LENGTH_SHORT).show()
+
             }
 
             override fun onNothingSelected(parent: AdapterView<*>?) {
@@ -69,8 +66,7 @@ class InputByTextPage : AppCompatActivity() {
         units3.onItemSelectedListener = object :
             AdapterView.OnItemSelectedListener {
             override fun onItemSelected(parent: AdapterView<*>?, view: View?, position: Int, id: Long) {
-                Toast.makeText(this@InputByTextPage, getString(R.string.selected_item) + " " +
-                        "" + units[position], Toast.LENGTH_SHORT).show()
+
             }
 
             override fun onNothingSelected(parent: AdapterView<*>?) {
@@ -87,8 +83,7 @@ class InputByTextPage : AppCompatActivity() {
         units4.onItemSelectedListener = object :
             AdapterView.OnItemSelectedListener {
             override fun onItemSelected(parent: AdapterView<*>?, view: View?, position: Int, id: Long) {
-                Toast.makeText(this@InputByTextPage, getString(R.string.selected_item) + " " +
-                        "" + units[position], Toast.LENGTH_SHORT).show()
+
             }
 
             override fun onNothingSelected(parent: AdapterView<*>?) {
@@ -105,8 +100,7 @@ class InputByTextPage : AppCompatActivity() {
         units5.onItemSelectedListener = object :
             AdapterView.OnItemSelectedListener {
             override fun onItemSelected(parent: AdapterView<*>?, view: View?, position: Int, id: Long) {
-                Toast.makeText(this@InputByTextPage, getString(R.string.selected_item) + " " +
-                        "" + units[position], Toast.LENGTH_SHORT).show()
+
             }
 
             override fun onNothingSelected(parent: AdapterView<*>?) {
@@ -123,8 +117,7 @@ class InputByTextPage : AppCompatActivity() {
         units6.onItemSelectedListener = object :
             AdapterView.OnItemSelectedListener {
             override fun onItemSelected(parent: AdapterView<*>?, view: View?, position: Int, id: Long) {
-                Toast.makeText(this@InputByTextPage, getString(R.string.selected_item) + " " +
-                        "" + units[position], Toast.LENGTH_SHORT).show()
+
             }
 
             override fun onNothingSelected(parent: AdapterView<*>?) {
@@ -141,8 +134,7 @@ class InputByTextPage : AppCompatActivity() {
         units7.onItemSelectedListener = object :
             AdapterView.OnItemSelectedListener {
             override fun onItemSelected(parent: AdapterView<*>?, view: View?, position: Int, id: Long) {
-                Toast.makeText(this@InputByTextPage, getString(R.string.selected_item) + " " +
-                        "" + units[position], Toast.LENGTH_SHORT).show()
+
             }
 
             override fun onNothingSelected(parent: AdapterView<*>?) {
@@ -159,8 +151,7 @@ class InputByTextPage : AppCompatActivity() {
         units8.onItemSelectedListener = object :
             AdapterView.OnItemSelectedListener {
             override fun onItemSelected(parent: AdapterView<*>?, view: View?, position: Int, id: Long) {
-                Toast.makeText(this@InputByTextPage, getString(R.string.selected_item) + " " +
-                        "" + units[position], Toast.LENGTH_SHORT).show()
+
             }
 
             override fun onNothingSelected(parent: AdapterView<*>?) {
@@ -177,8 +168,7 @@ class InputByTextPage : AppCompatActivity() {
         units9.onItemSelectedListener = object :
             AdapterView.OnItemSelectedListener {
             override fun onItemSelected(parent: AdapterView<*>?, view: View?, position: Int, id: Long) {
-                Toast.makeText(this@InputByTextPage, getString(R.string.selected_item) + " " +
-                        "" + units[position], Toast.LENGTH_SHORT).show()
+
             }
 
             override fun onNothingSelected(parent: AdapterView<*>?) {
@@ -195,8 +185,7 @@ class InputByTextPage : AppCompatActivity() {
         units10.onItemSelectedListener = object :
             AdapterView.OnItemSelectedListener {
             override fun onItemSelected(parent: AdapterView<*>?, view: View?, position: Int, id: Long) {
-                Toast.makeText(this@InputByTextPage, getString(R.string.selected_item) + " " +
-                        "" + units[position], Toast.LENGTH_SHORT).show()
+
             }
 
             override fun onNothingSelected(parent: AdapterView<*>?) {
@@ -213,8 +202,7 @@ class InputByTextPage : AppCompatActivity() {
         units11.onItemSelectedListener = object :
             AdapterView.OnItemSelectedListener {
             override fun onItemSelected(parent: AdapterView<*>?, view: View?, position: Int, id: Long) {
-                Toast.makeText(this@InputByTextPage, getString(R.string.selected_item) + " " +
-                        "" + units[position], Toast.LENGTH_SHORT).show()
+
             }
 
             override fun onNothingSelected(parent: AdapterView<*>?) {
@@ -231,8 +219,7 @@ class InputByTextPage : AppCompatActivity() {
         units12.onItemSelectedListener = object :
             AdapterView.OnItemSelectedListener {
             override fun onItemSelected(parent: AdapterView<*>?, view: View?, position: Int, id: Long) {
-                Toast.makeText(this@InputByTextPage, getString(R.string.selected_item) + " " +
-                        "" + units[position], Toast.LENGTH_SHORT).show()
+
             }
 
             override fun onNothingSelected(parent: AdapterView<*>?) {
@@ -249,8 +236,7 @@ class InputByTextPage : AppCompatActivity() {
         units13.onItemSelectedListener = object :
             AdapterView.OnItemSelectedListener {
             override fun onItemSelected(parent: AdapterView<*>?, view: View?, position: Int, id: Long) {
-                Toast.makeText(this@InputByTextPage, getString(R.string.selected_item) + " " +
-                        "" + units[position], Toast.LENGTH_SHORT).show()
+
             }
 
             override fun onNothingSelected(parent: AdapterView<*>?) {
@@ -267,8 +253,7 @@ class InputByTextPage : AppCompatActivity() {
         units14.onItemSelectedListener = object :
             AdapterView.OnItemSelectedListener {
             override fun onItemSelected(parent: AdapterView<*>?, view: View?, position: Int, id: Long) {
-                Toast.makeText(this@InputByTextPage, getString(R.string.selected_item) + " " +
-                        "" + units[position], Toast.LENGTH_SHORT).show()
+
             }
 
             override fun onNothingSelected(parent: AdapterView<*>?) {
@@ -285,8 +270,7 @@ class InputByTextPage : AppCompatActivity() {
         units15.onItemSelectedListener = object :
             AdapterView.OnItemSelectedListener {
             override fun onItemSelected(parent: AdapterView<*>?, view: View?, position: Int, id: Long) {
-                Toast.makeText(this@InputByTextPage, getString(R.string.selected_item) + " " +
-                        "" + units[position], Toast.LENGTH_SHORT).show()
+
             }
 
             override fun onNothingSelected(parent: AdapterView<*>?) {
@@ -295,9 +279,22 @@ class InputByTextPage : AppCompatActivity() {
         }
 
 //        switches pages to the recipes page
+//        db saving
         val button0: Button = findViewById(R.id.createRecipe)
         button0.setOnClickListener(View.OnClickListener {
-            RecipePage();
+            if (validation()) {
+                val recipe: Recipes = Recipes()
+                var success: Boolean = false
+                recipe.category = checkCategory()
+                recipe.title = findViewById<EditText>(R.id.titleName).text.toString()
+                recipe.servings = findViewById<EditText>(R.id.scale).text.toString().toInt()
+                recipe.directions = findViewById<EditText>(R.id.directions).text.toString()
+
+                success = dbHandler!!.addRecipe(recipe)
+
+                RecipePage();
+            }
+
         })
 
     }
@@ -309,65 +306,9 @@ class InputByTextPage : AppCompatActivity() {
     }
 
     //    creates recipe
-    fun RecipePage(){
-//        fetching categories from checkboxes
-        val beef = findViewById<RadioButton>(R.id.category1)
-        val chicken = findViewById<RadioButton>(R.id.category2)
-        val seafood = findViewById<RadioButton>(R.id.category3)
-        val pasta = findViewById<RadioButton>(R.id.category4)
-        val soup = findViewById<RadioButton>(R.id.category5)
-        val salad = findViewById<RadioButton>(R.id.category6)
-        val vegetable = findViewById<RadioButton>(R.id.category7)
-        val vegan = findViewById<RadioButton>(R.id.category8)
-        val dessert = findViewById<RadioButton>(R.id.category9)
-        val other = findViewById<RadioButton>(R.id.category10)
+    fun RecipePage() {
 
-//    creates an array of categories for recipes
-        val categories = arrayListOf<String>("a", "b", "c", "d", "e", "f", "g", "h", "i", "j")
-//    keeps track of how many categories have been changed
-        var cIndex=0
-
-//    checking the check boxes
-        if(beef.isChecked){
-            categories.set(cIndex, beef.text.toString())
-            cIndex++
-        }
-        if(chicken.isChecked){
-            categories.set(cIndex, chicken.text.toString())
-            cIndex++
-        }
-        if(seafood.isChecked){
-            categories.set(cIndex, seafood.text.toString())
-            cIndex++
-        }
-        if(pasta.isChecked){
-            categories.set(cIndex, pasta.text.toString())
-            cIndex++
-        }
-        if(soup.isChecked){
-            categories.set(cIndex, soup.text.toString())
-            cIndex++
-        }
-        if(salad.isChecked){
-            categories.set(cIndex, salad.text.toString())
-            cIndex++
-        }
-        if(vegetable.isChecked){
-            categories.set(cIndex, vegetable.text.toString())
-            cIndex++
-        }
-        if(vegan.isChecked){
-            categories.set(cIndex, vegan.text.toString())
-            cIndex++
-        }
-        if(dessert.isChecked){
-            categories.set(cIndex, dessert.text.toString())
-            cIndex++
-        }
-        if(other.isChecked){
-            categories.set(cIndex, other.text.toString())
-            cIndex++
-        }
+        val category = checkCategory()
 
 //        title
         val title = findViewById<EditText>(R.id.titleName).text.toString()
@@ -379,7 +320,7 @@ class InputByTextPage : AppCompatActivity() {
 //        ingredients
 //    this took awhile
 //    array of ingredients with place holders
-        val ingredients = arrayListOf<Ingredient>(Ingredient(0,0,0, "test", "string"), Ingredient(0,0,0, "test", "string"), Ingredient(0,0,0, "test", "string"), Ingredient(0,0,0, "test", "string"), Ingredient(0,0,0, "test", "string"), Ingredient(0,0,0, "test", "string"), Ingredient(0,0,0, "test", "string"), Ingredient(0,0,0, "test", "string"), Ingredient(0,0,0, "test", "string"), Ingredient(0,0,0, "test", "string"), Ingredient(0,0,0, "test", "string"), Ingredient(0,0,0, "test", "string"), Ingredient(0,0,0, "test", "string"), Ingredient(0,0,0, "test", "string"), Ingredient(0,0,0, "test", "string"))
+        val ingredients = arrayListOf<Ingredient>()
 //    index of ingredients
         var iNum = 0
 //    ingredient names
@@ -414,39 +355,6 @@ class InputByTextPage : AppCompatActivity() {
         var wholeNum13 = findViewById<EditText>(R.id.wholeNumber13).text.toString().toInt()
         var wholeNum14 = findViewById<EditText>(R.id.wholeNumber14).text.toString().toInt()
         var wholeNum15 = findViewById<EditText>(R.id.wholeNumber15).text.toString().toInt()
-//    fractions
-//    top
-        var topHalf1 = findViewById<EditText>(R.id.topHalf1).text.toString().toInt()
-        var topHalf2 = findViewById<EditText>(R.id.topHalf2).text.toString().toInt()
-        var topHalf3 = findViewById<EditText>(R.id.topHalf3).text.toString().toInt()
-        var topHalf4 = findViewById<EditText>(R.id.topHalf4).text.toString().toInt()
-        var topHalf5 = findViewById<EditText>(R.id.topHalf5).text.toString().toInt()
-        var topHalf6 = findViewById<EditText>(R.id.topHalf6).text.toString().toInt()
-        var topHalf7 = findViewById<EditText>(R.id.topHalf7).text.toString().toInt()
-        var topHalf8 = findViewById<EditText>(R.id.topHalf8).text.toString().toInt()
-        var topHalf9 = findViewById<EditText>(R.id.topHalf9).text.toString().toInt()
-        var topHalf10 = findViewById<EditText>(R.id.topHalf10).text.toString().toInt()
-        var topHalf11 = findViewById<EditText>(R.id.topHalf11).text.toString().toInt()
-        var topHalf12 = findViewById<EditText>(R.id.topHalf12).text.toString().toInt()
-        var topHalf13 = findViewById<EditText>(R.id.topHalf13).text.toString().toInt()
-        var topHalf14 = findViewById<EditText>(R.id.topHalf14).text.toString().toInt()
-        var topHalf15 = findViewById<EditText>(R.id.topHalf15).text.toString().toInt()
-//bottom
-        var bottomHalf1 = findViewById<EditText>(R.id.bottomHalf1).text.toString().toInt()
-        var bottomHalf2 = findViewById<EditText>(R.id.bottomHalf2).text.toString().toInt()
-        var bottomHalf3 = findViewById<EditText>(R.id.bottomHalf3).text.toString().toInt()
-        var bottomHalf4 = findViewById<EditText>(R.id.bottomHalf4).text.toString().toInt()
-        var bottomHalf5 = findViewById<EditText>(R.id.bottomHalf5).text.toString().toInt()
-        var bottomHalf6 = findViewById<EditText>(R.id.bottomHalf6).text.toString().toInt()
-        var bottomHalf7 = findViewById<EditText>(R.id.bottomHalf7).text.toString().toInt()
-        var bottomHalf8 = findViewById<EditText>(R.id.bottomHalf8).text.toString().toInt()
-        var bottomHalf9 = findViewById<EditText>(R.id.bottomHalf9).text.toString().toInt()
-        var bottomHalf10 = findViewById<EditText>(R.id.bottomHalf10).text.toString().toInt()
-        var bottomHalf11 = findViewById<EditText>(R.id.bottomHalf11).text.toString().toInt()
-        var bottomHalf12 = findViewById<EditText>(R.id.bottomHalf12).text.toString().toInt()
-        var bottomHalf13 = findViewById<EditText>(R.id.bottomHalf13).text.toString().toInt()
-        var bottomHalf14 = findViewById<EditText>(R.id.bottomHalf14).text.toString().toInt()
-        var bottomHalf15 = findViewById<EditText>(R.id.bottomHalf15).text.toString().toInt()
 //drop down lists (spinners)
         var units1 = findViewById<Spinner>(R.id.units1).selectedItem.toString()
         var units2 = findViewById<Spinner>(R.id.units2).selectedItem.toString()
@@ -466,92 +374,145 @@ class InputByTextPage : AppCompatActivity() {
 
 //    checking the ingredient rows and creating actual ingredients
         if(ingredient1.isNullOrEmpty() == false){
-            ingredients.set(iNum, Ingredient(wholeNum1, topHalf1, bottomHalf1, units1, ingredient1))
-            iNum++
+            ingredients.add(Ingredient(wholeNum1, units1, ingredient1))
         }
 
         if(ingredient2.isNullOrEmpty() == false){
-            ingredients.set(iNum, Ingredient(wholeNum2, topHalf2, bottomHalf2, units2, ingredient2))
-            iNum++
+            ingredients.add(Ingredient(wholeNum2, units2, ingredient2))
         }
 
         if(ingredient3.isNullOrEmpty() == false){
-            ingredients.set(iNum, Ingredient(wholeNum3, topHalf3, bottomHalf3, units3, ingredient3))
-            iNum++
+            ingredients.add(Ingredient(wholeNum3, units3, ingredient3))
         }
 
         if(ingredient4.isNullOrEmpty() == false){
-            ingredients.set(iNum, Ingredient(wholeNum4, topHalf4, bottomHalf4, units4, ingredient4))
-            iNum++
+            ingredients.add(Ingredient(wholeNum4, units4, ingredient4))
         }
 
         if(ingredient5.isNullOrEmpty() == false){
-            ingredients.set(iNum, Ingredient(wholeNum5, topHalf5, bottomHalf5, units5, ingredient5))
-            iNum++
+            ingredients.add(Ingredient(wholeNum5, units5, ingredient5))
         }
 
         if(ingredient6.isNullOrEmpty() == false){
-            ingredients.set(iNum, Ingredient(wholeNum6, topHalf6, bottomHalf6, units6, ingredient6))
-            iNum++
+            ingredients.add(Ingredient(wholeNum6, units6, ingredient6))
         }
 
         if(ingredient7.isNullOrEmpty() == false){
-            ingredients.set(iNum, Ingredient(wholeNum7, topHalf7, bottomHalf7, units7, ingredient7))
-            iNum++
+            ingredients.add(Ingredient(wholeNum7, units7, ingredient7))
         }
 
         if(ingredient8.isNullOrEmpty() == false){
-            ingredients.set(iNum, Ingredient(wholeNum8, topHalf8, bottomHalf8, units8, ingredient8))
-            iNum++
+            ingredients.add(Ingredient(wholeNum8, units8, ingredient8))
         }
 
         if(ingredient9.isNullOrEmpty() == false){
-            ingredients.set(iNum, Ingredient(wholeNum9, topHalf9, bottomHalf9, units9, ingredient9))
-            iNum++
+            ingredients.add(Ingredient(wholeNum9, units9, ingredient9))
         }
 
         if(ingredient10.isNullOrEmpty() == false){
-            ingredients.set(iNum, Ingredient(wholeNum10, topHalf10, bottomHalf10, units10, ingredient10))
-            iNum++
+            ingredients.add(Ingredient(wholeNum10, units10, ingredient10))
         }
 
         if(ingredient11.isNullOrEmpty() == false){
-            ingredients.set(iNum, Ingredient(wholeNum11, topHalf11, bottomHalf11, units11, ingredient11))
-            iNum++
+            ingredients.add(Ingredient(wholeNum11, units11, ingredient11))
         }
 
         if(ingredient12.isNullOrEmpty() == false){
-            ingredients.set(iNum, Ingredient(wholeNum12, topHalf12, bottomHalf12, units12, ingredient12))
-            iNum++
+            ingredients.add(Ingredient(wholeNum12, units12, ingredient12))
         }
 
         if(ingredient13.isNullOrEmpty() == false){
-            ingredients.set(iNum, Ingredient(wholeNum13, topHalf13, bottomHalf13, units13, ingredient13))
-            iNum++
+            ingredients.add(Ingredient(wholeNum13, units13, ingredient13))
         }
 
         if(ingredient14.isNullOrEmpty() == false){
-            ingredients.set(iNum, Ingredient(wholeNum14, topHalf14, bottomHalf14, units14, ingredient14))
-            iNum++
+            ingredients.add(Ingredient(wholeNum14, units14, ingredient14))
         }
 
         if(ingredient15.isNullOrEmpty() == false){
-            ingredients.set(iNum, Ingredient(wholeNum15, topHalf15, bottomHalf15, units15, ingredient15))
-            iNum++
+            ingredients.add(Ingredient(wholeNum15, units15, ingredient15))
         }
+
+        dbHandler!!.addIngredients(ingredients)
 
 //    getting directions
         val directions = findViewById<EditText>(R.id.directions).text.toString()
 
 //    creating recipe
 //    saves to global array recipes
-        recipes.add(Recipe(categories, cIndex, title, servings, ingredients, iNum, directions))
+        recipes.add(Recipe(category, title, servings, ingredients, directions))
         a = a+1
 
 //    intent goes to your recipes
-        val intent = Intent(this, YourRecipes::class.java).apply{
+        val intent = Intent(this, InputByTextPage::class.java).apply{
         }
         startActivity(intent)
     }
 
+    fun validation(): Boolean{
+        val category = checkCategory()
+        val title = findViewById<EditText>(R.id.titleName).text.toString()
+        val servings = findViewById<EditText>(R.id.scale).text.toString().toInt()
+        val directions = findViewById<EditText>(R.id.directions).text.toString()
+        var validate = false
+
+        if (!category.equals("") &&
+                !title.equals("") &&
+                !servings.equals(0) &&
+                !directions.equals("")){
+            validate = true
+        }else{
+            validate = false
+            val toast = Toast.makeText(this,"Fill all details, category, title, servings, directions", Toast.LENGTH_LONG).show()
+        }
+
+        return validate
+    }
+
+    fun checkCategory(): String{
+        //        fetching categories from checkboxes
+        val beef = findViewById<RadioButton>(R.id.category1)
+        val chicken = findViewById<RadioButton>(R.id.category2)
+        val seafood = findViewById<RadioButton>(R.id.category3)
+        val pasta = findViewById<RadioButton>(R.id.category4)
+        val soup = findViewById<RadioButton>(R.id.category5)
+        val salad = findViewById<RadioButton>(R.id.category6)
+        val vegetable = findViewById<RadioButton>(R.id.category7)
+        val vegan = findViewById<RadioButton>(R.id.category8)
+        val dessert = findViewById<RadioButton>(R.id.category9)
+        val other = findViewById<RadioButton>(R.id.category10)
+
+//    checking the check boxes
+        if(beef.isChecked){
+            return beef.text.toString()
+        }
+        if(chicken.isChecked){
+            return chicken.text.toString()
+        }
+        if(seafood.isChecked){
+            return seafood.text.toString()
+        }
+        if(pasta.isChecked){
+            return pasta.text.toString()
+        }
+        if(soup.isChecked){
+            return soup.text.toString()
+        }
+        if(salad.isChecked){
+            return salad.text.toString()
+        }
+        if(vegetable.isChecked){
+            return vegetable.text.toString()
+        }
+        if(vegan.isChecked){
+            return vegan.text.toString()
+        }
+        if(dessert.isChecked){
+            return dessert.text.toString()
+        }
+        if(other.isChecked){
+            return other.text.toString()
+        }
+        return "Nothing";
+    }
 }

@@ -6,579 +6,473 @@
     <ScrollView android:layout_height="match_parent" android:layout_width="match_parent">
 
 
-    <LinearLayout android:orientation="vertical" android:layout_height="wrap_content" android:layout_width="match_parent">
+        <LinearLayout
+            android:id="@+id/layout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
 
 
-    <LinearLayout android:orientation="horizontal" android:layout_height="wrap_content" android:layout_width="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
 
-    <Button android:layout_height="match_parent" android:layout_width="wrap_content" android:textSize="14sp" android:text="Back" android:layout_weight=".1" android:id="@+id/backAPage"/>
+                <Button
+                    android:id="@+id/backAPage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".1"
+                    android:text="Back"
+                    android:textSize="14sp" />
 
-    <TextView android:layout_height="match_parent" android:layout_width="wrap_content" android:textSize="36sp" android:layout_weight=".9" android:id="@+id/yourRecipe" android:textAlignment="center"/>
+                <TextView
+                    android:id="@+id/yourRecipe"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".9"
+                    android:textAlignment="center"
+                    android:textSize="36sp" />
 
-</LinearLayout>
+            </LinearLayout>
 
 
-    <LinearLayout android:orientation="horizontal" android:layout_height="wrap_content" android:layout_width="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
 
-    <TextView android:layout_height="match_parent" android:layout_width="wrap_content" android:textSize="36sp" android:text="Category:" android:id="@+id/category"/>
+                <TextView
+                    android:id="@+id/category"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="Category:"
+                    android:textSize="36sp" />
 
-    <TextView android:layout_height="match_parent" android:layout_width="wrap_content" android:textSize="24sp" android:layout_weight="1" android:id="@+id/categories"/>
+                <TextView
+                    android:id="@+id/categories"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:textSize="24sp" />
 
-</LinearLayout>
+            </LinearLayout>
 
 
-    <LinearLayout android:orientation="horizontal" android:layout_height="wrap_content" android:layout_width="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
 
-    <TextView android:layout_height="match_parent" android:layout_width="wrap_content" android:textSize="36sp" android:text="scaling" android:layout_weight=".5" android:id="@+id/scaling"/>
+                <TextView
+                    android:id="@+id/scaling"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:text="scaling"
+                    android:textSize="36sp" />
 
-    <EditText android:layout_height="match_parent" android:layout_width="wrap_content" android:textSize="36sp" android:text="0" android:layout_weight=".5" android:id="@+id/scale"/>
+                <EditText
+                    android:id="@+id/scale"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:inputType="number"
+                    android:text="0" />
 
-    <Button android:layout_height="match_parent" android:layout_width="wrap_content" android:text="calculate" android:layout_weight=".5" android:id="@+id/calculate"/>
+                <Button
+                    android:id="@+id/calculate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:text="calculate" />
 
-</LinearLayout>
+            </LinearLayout>
 
-    <TextView android:layout_height="wrap_content" android:layout_width="match_parent" android:textSize="36sp" android:text="Ingredients:" android:id="@+id/ingredients" android:textAlignment="center"/>
+            <!--    <TextView android:layout_height="wrap_content" android:layout_width="match_parent" android:textSize="36sp" android:text="Ingredients:" android:id="@+id/ingredients" android:textAlignment="center"/>-->
 
 
-    <LinearLayout android:orientation="horizontal" android:layout_height="wrap_content" android:layout_width="match_parent">
+            <!--    <LinearLayout android:orientation="horizontal" android:layout_height="wrap_content" android:layout_width="match_parent">-->
 
 
-    <LinearLayout android:orientation="vertical" android:layout_height="wrap_content" android:layout_width="match_parent">
+            <!--    <LinearLayout android:orientation="vertical" android:layout_height="wrap_content" android:layout_width="match_parent">-->
 
 
-    <LinearLayout android:orientation="horizontal" android:layout_height="match_parent" android:layout_width="match_parent">
+            <!--    <LinearLayout android:orientation="horizontal" android:layout_height="match_parent" android:layout_width="match_parent">-->
 
-        <TextView android:layout_height="match_parent" android:layout_width="wrap_content" android:text="0" android:id="@+id/wholeNumber1" android:inputType="number"/>
+            <!--        <TextView android:layout_height="match_parent" android:layout_width="wrap_content" android:text="0" android:id="@+id/wholeNumber1" android:inputType="number"/>-->
 
-        <TextView
-            android:id="@+id/textView3"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:text=" " />
+            <!--        <TextView-->
+            <!--            android:id="@+id/textView21"-->
+            <!--            android:layout_width="wrap_content"-->
+            <!--            android:layout_height="match_parent"-->
+            <!--            android:text=" " />-->
 
-        <TextView android:layout_height="match_parent" android:layout_width="wrap_content" android:text="0" android:id="@+id/topHalf1" android:inputType="number"/>
+            <!--        <TextView android:layout_height="match_parent" android:layout_width="wrap_content" android:id="@+id/units1"/>-->
 
-    <TextView android:layout_height="match_parent" android:layout_width="wrap_content" android:textSize="36sp" android:text="/" android:id="@+id/divide1"/>
+            <!--        <TextView-->
+            <!--            android:id="@+id/textView20"-->
+            <!--            android:layout_width="wrap_content"-->
+            <!--            android:layout_height="match_parent"-->
+            <!--            android:text=" " />-->
 
-    <TextView android:layout_height="match_parent" android:layout_width="wrap_content" android:text="0" android:id="@+id/bottomHalf1" android:inputType="number"/>
+            <!--        <TextView android:layout_height="match_parent" android:layout_width="wrap_content" android:text="" android:layout_weight=".3" android:id="@+id/ingredient1" android:hint="ingredient name"/>-->
 
-        <TextView
-            android:id="@+id/textView21"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:text=" " />
+            <!--</LinearLayout>-->
 
-        <TextView android:layout_height="match_parent" android:layout_width="wrap_content" android:id="@+id/units1"/>
 
-        <TextView
-            android:id="@+id/textView20"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:text=" " />
+            <!--    <LinearLayout android:orientation="horizontal" android:layout_height="match_parent" android:layout_width="match_parent">-->
 
-        <TextView android:layout_height="match_parent" android:layout_width="wrap_content" android:text="" android:layout_weight=".3" android:id="@+id/ingredient1" android:hint="ingredient name"/>
+            <!--        <TextView android:layout_height="match_parent" android:layout_width="wrap_content" android:text="0" android:id="@+id/wholeNumber2" android:inputType="number"/>-->
 
-</LinearLayout>
+            <!--        <TextView-->
+            <!--            android:id="@+id/textView22"-->
+            <!--            android:layout_width="wrap_content"-->
+            <!--            android:layout_height="match_parent"-->
+            <!--            android:text=" " />-->
 
+            <!--        <TextView android:layout_height="match_parent" android:layout_width="wrap_content" android:id="@+id/units2"/>-->
 
-    <LinearLayout android:orientation="horizontal" android:layout_height="match_parent" android:layout_width="match_parent">
+            <!--        <TextView-->
+            <!--            android:id="@+id/textView23"-->
+            <!--            android:layout_width="wrap_content"-->
+            <!--            android:layout_height="match_parent"-->
+            <!--            android:text=" " />-->
 
-        <TextView android:layout_height="match_parent" android:layout_width="wrap_content" android:text="0" android:id="@+id/wholeNumber2" android:inputType="number"/>
+            <!--        <TextView android:layout_height="match_parent" android:layout_width="wrap_content" android:text="" android:layout_weight=".3" android:id="@+id/ingredient2" android:hint="ingredient name"/>-->
 
-        <TextView
-            android:id="@+id/textView4"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:text=" " />
+            <!--</LinearLayout>-->
 
-        <TextView android:layout_height="match_parent" android:layout_width="wrap_content" android:text="0" android:id="@+id/topHalf2" android:inputType="number"/>
 
-    <TextView android:layout_height="match_parent" android:layout_width="wrap_content" android:textSize="36sp" android:text="/" android:id="@+id/divide2"/>
+            <!--    <LinearLayout android:orientation="horizontal" android:layout_height="match_parent" android:layout_width="match_parent">-->
 
-    <TextView android:layout_height="match_parent" android:layout_width="wrap_content" android:text="0" android:id="@+id/bottomHalf2" android:inputType="number"/>
+            <!--        <TextView android:layout_height="match_parent" android:layout_width="wrap_content" android:text="0" android:id="@+id/wholeNumber3" android:inputType="number"/>-->
 
-        <TextView
-            android:id="@+id/textView22"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:text=" " />
+            <!--        <TextView-->
+            <!--            android:id="@+id/textView26"-->
+            <!--            android:layout_width="wrap_content"-->
+            <!--            android:layout_height="match_parent"-->
+            <!--            android:text=" " />-->
 
-        <TextView android:layout_height="match_parent" android:layout_width="wrap_content" android:id="@+id/units2"/>
+            <!--        <TextView android:layout_height="match_parent" android:layout_width="wrap_content" android:id="@+id/units3"/>-->
 
-        <TextView
-            android:id="@+id/textView23"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:text=" " />
+            <!--        <TextView-->
+            <!--            android:id="@+id/textView27"-->
+            <!--            android:layout_width="wrap_content"-->
+            <!--            android:layout_height="match_parent"-->
+            <!--            android:text=" " />-->
 
-        <TextView android:layout_height="match_parent" android:layout_width="wrap_content" android:text="" android:layout_weight=".3" android:id="@+id/ingredient2" android:hint="ingredient name"/>
+            <!--        <TextView android:layout_height="match_parent" android:layout_width="wrap_content" android:text="" android:layout_weight=".3" android:id="@+id/ingredient3" android:hint="ingredient name"/>-->
 
-</LinearLayout>
+            <!--</LinearLayout>-->
 
 
-    <LinearLayout android:orientation="horizontal" android:layout_height="match_parent" android:layout_width="match_parent">
+            <!--    <LinearLayout android:orientation="horizontal" android:layout_height="match_parent" android:layout_width="match_parent">-->
 
-        <TextView android:layout_height="match_parent" android:layout_width="wrap_content" android:text="0" android:id="@+id/wholeNumber3" android:inputType="number"/>
+            <!--        <TextView android:layout_height="match_parent" android:layout_width="wrap_content" android:text="0" android:id="@+id/wholeNumber4" android:inputType="number"/>-->
 
-        <TextView
-            android:id="@+id/textView5"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:text=" " />
+            <!--        <TextView-->
+            <!--            android:id="@+id/textView28"-->
+            <!--            android:layout_width="wrap_content"-->
+            <!--            android:layout_height="match_parent"-->
+            <!--            android:text=" " />-->
 
-        <TextView android:layout_height="match_parent" android:layout_width="wrap_content" android:text="0" android:id="@+id/topHalf3" android:inputType="number"/>
+            <!--        <TextView android:layout_height="match_parent" android:layout_width="wrap_content" android:id="@+id/units4"/>-->
 
-    <TextView android:layout_height="match_parent" android:layout_width="wrap_content" android:textSize="36sp" android:text="/" android:id="@+id/divide3"/>
+            <!--        <TextView-->
+            <!--            android:id="@+id/textView29"-->
+            <!--            android:layout_width="wrap_content"-->
+            <!--            android:layout_height="match_parent"-->
+            <!--            android:text=" " />-->
 
-    <TextView android:layout_height="match_parent" android:layout_width="wrap_content" android:text="0" android:id="@+id/bottomHalf3" android:inputType="number"/>
+            <!--        <TextView android:layout_height="match_parent" android:layout_width="wrap_content" android:text="" android:layout_weight=".3" android:id="@+id/ingredient4" android:hint="ingredient name"/>-->
 
-        <TextView
-            android:id="@+id/textView26"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:text=" " />
+            <!--</LinearLayout>-->
 
-        <TextView android:layout_height="match_parent" android:layout_width="wrap_content" android:id="@+id/units3"/>
 
-        <TextView
-            android:id="@+id/textView27"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:text=" " />
+            <!--    <LinearLayout android:orientation="horizontal" android:layout_height="match_parent" android:layout_width="match_parent">-->
 
-        <TextView android:layout_height="match_parent" android:layout_width="wrap_content" android:text="" android:layout_weight=".3" android:id="@+id/ingredient3" android:hint="ingredient name"/>
+            <!--        <TextView android:layout_height="match_parent" android:layout_width="wrap_content" android:text="0" android:id="@+id/wholeNumber5" android:inputType="number"/>-->
 
-</LinearLayout>
+            <!--        <TextView-->
+            <!--            android:id="@+id/textView30"-->
+            <!--            android:layout_width="wrap_content"-->
+            <!--            android:layout_height="match_parent"-->
+            <!--            android:text=" " />-->
 
+            <!--        <TextView android:layout_height="match_parent" android:layout_width="wrap_content" android:id="@+id/units5"/>-->
 
-    <LinearLayout android:orientation="horizontal" android:layout_height="match_parent" android:layout_width="match_parent">
+            <!--        <TextView-->
+            <!--            android:id="@+id/textView31"-->
+            <!--            android:layout_width="wrap_content"-->
+            <!--            android:layout_height="match_parent"-->
+            <!--            android:text=" " />-->
 
-        <TextView android:layout_height="match_parent" android:layout_width="wrap_content" android:text="0" android:id="@+id/wholeNumber4" android:inputType="number"/>
+            <!--        <TextView android:layout_height="match_parent" android:layout_width="wrap_content" android:text="" android:layout_weight=".3" android:id="@+id/ingredient5" android:hint="ingredient name"/>-->
 
-        <TextView
-            android:id="@+id/textView6"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:text=" " />
+            <!--</LinearLayout>-->
 
-        <TextView android:layout_height="match_parent" android:layout_width="wrap_content" android:text="0" android:id="@+id/topHalf4" android:inputType="number"/>
 
-    <TextView android:layout_height="match_parent" android:layout_width="wrap_content" android:textSize="36sp" android:text="/" android:id="@+id/divide4"/>
+            <!--    <LinearLayout android:orientation="horizontal" android:layout_height="match_parent" android:layout_width="match_parent">-->
 
-    <TextView android:layout_height="match_parent" android:layout_width="wrap_content" android:text="0" android:id="@+id/bottomHalf4" android:inputType="number"/>
+            <!--        <TextView android:layout_height="match_parent" android:layout_width="wrap_content" android:text="0" android:id="@+id/wholeNumber6" android:inputType="number"/>-->
 
-        <TextView
-            android:id="@+id/textView28"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:text=" " />
+            <!--        <TextView-->
+            <!--            android:id="@+id/textView32"-->
+            <!--            android:layout_width="wrap_content"-->
+            <!--            android:layout_height="match_parent"-->
+            <!--            android:text=" " />-->
 
-        <TextView android:layout_height="match_parent" android:layout_width="wrap_content" android:id="@+id/units4"/>
+            <!--        <TextView android:layout_height="match_parent" android:layout_width="wrap_content" android:id="@+id/units6"/>-->
 
-        <TextView
-            android:id="@+id/textView29"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:text=" " />
+            <!--        <TextView-->
+            <!--            android:id="@+id/textView33"-->
+            <!--            android:layout_width="wrap_content"-->
+            <!--            android:layout_height="match_parent"-->
+            <!--            android:text=" " />-->
 
-        <TextView android:layout_height="match_parent" android:layout_width="wrap_content" android:text="" android:layout_weight=".3" android:id="@+id/ingredient4" android:hint="ingredient name"/>
+            <!--        <TextView android:layout_height="match_parent" android:layout_width="wrap_content" android:text="" android:layout_weight=".3" android:id="@+id/ingredient6" android:hint="ingredient name"/>-->
 
-</LinearLayout>
+            <!--</LinearLayout>-->
 
 
-    <LinearLayout android:orientation="horizontal" android:layout_height="match_parent" android:layout_width="match_parent">
+            <!--    <LinearLayout android:orientation="horizontal" android:layout_height="match_parent" android:layout_width="match_parent">-->
 
-        <TextView android:layout_height="match_parent" android:layout_width="wrap_content" android:text="0" android:id="@+id/wholeNumber5" android:inputType="number"/>
+            <!--        <TextView android:layout_height="match_parent" android:layout_width="wrap_content" android:text="0" android:id="@+id/wholeNumber7" android:inputType="number"/>-->
 
-        <TextView
-            android:id="@+id/textView7"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:text=" " />
+            <!--        <TextView-->
+            <!--            android:id="@+id/textView34"-->
+            <!--            android:layout_width="wrap_content"-->
+            <!--            android:layout_height="match_parent"-->
+            <!--            android:text=" " />-->
 
-        <TextView android:layout_height="match_parent" android:layout_width="wrap_content" android:text="0" android:id="@+id/topHalf5" android:inputType="number"/>
+            <!--        <TextView android:layout_height="match_parent" android:layout_width="wrap_content" android:id="@+id/units7"/>-->
 
-    <TextView android:layout_height="match_parent" android:layout_width="wrap_content" android:textSize="36sp" android:text="/" android:id="@+id/divide5"/>
+            <!--        <TextView-->
+            <!--            android:id="@+id/textView35"-->
+            <!--            android:layout_width="wrap_content"-->
+            <!--            android:layout_height="match_parent"-->
+            <!--            android:text=" " />-->
 
-    <TextView android:layout_height="match_parent" android:layout_width="wrap_content" android:text="0" android:id="@+id/bottomHalf5" android:inputType="number"/>
+            <!--        <TextView android:layout_height="match_parent" android:layout_width="wrap_content" android:text="" android:layout_weight=".3" android:id="@+id/ingredient7" android:hint="ingredient name"/>-->
 
-        <TextView
-            android:id="@+id/textView30"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:text=" " />
+            <!--</LinearLayout>-->
 
-        <TextView android:layout_height="match_parent" android:layout_width="wrap_content" android:id="@+id/units5"/>
 
-        <TextView
-            android:id="@+id/textView31"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:text=" " />
+            <!--    <LinearLayout android:orientation="horizontal" android:layout_height="match_parent" android:layout_width="match_parent">-->
 
-        <TextView android:layout_height="match_parent" android:layout_width="wrap_content" android:text="" android:layout_weight=".3" android:id="@+id/ingredient5" android:hint="ingredient name"/>
+            <!--        <TextView android:layout_height="match_parent" android:layout_width="wrap_content" android:text="0" android:id="@+id/wholeNumber8" android:inputType="number"/>-->
 
-</LinearLayout>
+            <!--        <TextView-->
+            <!--            android:id="@+id/textView36"-->
+            <!--            android:layout_width="wrap_content"-->
+            <!--            android:layout_height="match_parent"-->
+            <!--            android:text=" " />-->
 
+            <!--        <TextView android:layout_height="match_parent" android:layout_width="wrap_content" android:id="@+id/units8"/>-->
 
-    <LinearLayout android:orientation="horizontal" android:layout_height="match_parent" android:layout_width="match_parent">
+            <!--        <TextView-->
+            <!--            android:id="@+id/textView37"-->
+            <!--            android:layout_width="wrap_content"-->
+            <!--            android:layout_height="match_parent"-->
+            <!--            android:text=" " />-->
 
-        <TextView android:layout_height="match_parent" android:layout_width="wrap_content" android:text="0" android:id="@+id/wholeNumber6" android:inputType="number"/>
+            <!--        <TextView android:layout_height="match_parent" android:layout_width="wrap_content" android:text="" android:layout_weight=".3" android:id="@+id/ingredient8" android:hint="ingredient name"/>-->
 
-        <TextView
-            android:id="@+id/textView8"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:text=" " />
+            <!--</LinearLayout>-->
 
-        <TextView android:layout_height="match_parent" android:layout_width="wrap_content" android:text="0" android:id="@+id/topHalf6" android:inputType="number"/>
 
-    <TextView android:layout_height="match_parent" android:layout_width="wrap_content" android:textSize="36sp" android:text="/" android:id="@+id/divide6"/>
+            <!--    <LinearLayout android:orientation="horizontal" android:layout_height="match_parent" android:layout_width="match_parent">-->
 
-    <TextView android:layout_height="match_parent" android:layout_width="wrap_content" android:text="0" android:id="@+id/bottomHalf6" android:inputType="number"/>
+            <!--        <TextView android:layout_height="match_parent" android:layout_width="wrap_content" android:text="0" android:id="@+id/wholeNumber9" android:inputType="number"/>-->
 
-        <TextView
-            android:id="@+id/textView32"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:text=" " />
+            <!--        <TextView-->
+            <!--            android:id="@+id/textView39"-->
+            <!--            android:layout_width="wrap_content"-->
+            <!--            android:layout_height="match_parent"-->
+            <!--            android:text=" " />-->
 
-        <TextView android:layout_height="match_parent" android:layout_width="wrap_content" android:id="@+id/units6"/>
+            <!--        <TextView android:layout_height="match_parent" android:layout_width="wrap_content" android:id="@+id/units9"/>-->
 
-        <TextView
-            android:id="@+id/textView33"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:text=" " />
+            <!--        <TextView-->
+            <!--            android:id="@+id/textView40"-->
+            <!--            android:layout_width="wrap_content"-->
+            <!--            android:layout_height="match_parent"-->
+            <!--            android:text=" " />-->
 
-        <TextView android:layout_height="match_parent" android:layout_width="wrap_content" android:text="" android:layout_weight=".3" android:id="@+id/ingredient6" android:hint="ingredient name"/>
+            <!--        <TextView android:layout_height="match_parent" android:layout_width="wrap_content" android:text="" android:layout_weight=".3" android:id="@+id/ingredient9" android:hint="ingredient name"/>-->
 
-</LinearLayout>
+            <!--</LinearLayout>-->
 
 
-    <LinearLayout android:orientation="horizontal" android:layout_height="match_parent" android:layout_width="match_parent">
+            <!--    <LinearLayout android:orientation="horizontal" android:layout_height="match_parent" android:layout_width="match_parent">-->
 
-        <TextView android:layout_height="match_parent" android:layout_width="wrap_content" android:text="0" android:id="@+id/wholeNumber7" android:inputType="number"/>
+            <!--        <TextView android:layout_height="match_parent" android:layout_width="wrap_content" android:text="0" android:id="@+id/wholeNumber10" android:inputType="number"/>-->
 
-        <TextView
-            android:id="@+id/textView9"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:text=" " />
+            <!--        <TextView-->
+            <!--            android:id="@+id/textView41"-->
+            <!--            android:layout_width="wrap_content"-->
+            <!--            android:layout_height="match_parent"-->
+            <!--            android:text=" " />-->
 
-        <TextView android:layout_height="match_parent" android:layout_width="wrap_content" android:text="0" android:id="@+id/topHalf7" android:inputType="number"/>
+            <!--        <TextView android:layout_height="match_parent" android:layout_width="wrap_content" android:id="@+id/units10"/>-->
 
-    <TextView android:layout_height="match_parent" android:layout_width="wrap_content" android:textSize="36sp" android:text="/" android:id="@+id/divide7"/>
+            <!--        <TextView-->
+            <!--            android:id="@+id/textView42"-->
+            <!--            android:layout_width="wrap_content"-->
+            <!--            android:layout_height="match_parent"-->
+            <!--            android:text=" " />-->
 
-    <TextView android:layout_height="match_parent" android:layout_width="wrap_content" android:text="0" android:id="@+id/bottomHalf7" android:inputType="number"/>
+            <!--        <TextView android:layout_height="match_parent" android:layout_width="wrap_content" android:text="" android:layout_weight=".3" android:id="@+id/ingredient10" android:hint="ingredient name"/>-->
 
-        <TextView
-            android:id="@+id/textView34"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:text=" " />
+            <!--</LinearLayout>-->
 
-        <TextView android:layout_height="match_parent" android:layout_width="wrap_content" android:id="@+id/units7"/>
 
-        <TextView
-            android:id="@+id/textView35"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:text=" " />
+            <!--    <LinearLayout android:orientation="horizontal" android:layout_height="match_parent" android:layout_width="match_parent">-->
 
-        <TextView android:layout_height="match_parent" android:layout_width="wrap_content" android:text="" android:layout_weight=".3" android:id="@+id/ingredient7" android:hint="ingredient name"/>
+            <!--        <TextView android:layout_height="match_parent" android:layout_width="wrap_content" android:text="0" android:id="@+id/wholeNumber11" android:inputType="number"/>-->
 
-</LinearLayout>
+            <!--        <TextView-->
+            <!--            android:id="@+id/textView43"-->
+            <!--            android:layout_width="wrap_content"-->
+            <!--            android:layout_height="match_parent"-->
+            <!--            android:text=" " />-->
 
+            <!--        <TextView android:layout_height="match_parent" android:layout_width="wrap_content" android:id="@+id/units11"/>-->
 
-    <LinearLayout android:orientation="horizontal" android:layout_height="match_parent" android:layout_width="match_parent">
+            <!--        <TextView-->
+            <!--            android:id="@+id/textView44"-->
+            <!--            android:layout_width="wrap_content"-->
+            <!--            android:layout_height="match_parent"-->
+            <!--            android:text=" " />-->
 
-        <TextView android:layout_height="match_parent" android:layout_width="wrap_content" android:text="0" android:id="@+id/wholeNumber8" android:inputType="number"/>
+            <!--        <TextView android:layout_height="match_parent" android:layout_width="wrap_content" android:text="" android:layout_weight=".3" android:id="@+id/ingredient11" android:hint="ingredient name"/>-->
 
-        <TextView
-            android:id="@+id/textView10"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:text=" " />
+            <!--</LinearLayout>-->
 
-        <TextView android:layout_height="match_parent" android:layout_width="wrap_content" android:text="0" android:id="@+id/topHalf8" android:inputType="number"/>
 
-    <TextView android:layout_height="match_parent" android:layout_width="wrap_content" android:textSize="36sp" android:text="/" android:id="@+id/divide8"/>
+            <!--    <LinearLayout android:orientation="horizontal" android:layout_height="match_parent" android:layout_width="match_parent">-->
 
-    <TextView android:layout_height="match_parent" android:layout_width="wrap_content" android:text="0" android:id="@+id/bottomHalf8" android:inputType="number"/>
+            <!--        <TextView android:layout_height="match_parent" android:layout_width="wrap_content" android:text="0" android:id="@+id/wholeNumber12" android:inputType="number"/>-->
 
-        <TextView
-            android:id="@+id/textView36"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:text=" " />
+            <!--        <TextView-->
+            <!--            android:id="@+id/textView45"-->
+            <!--            android:layout_width="wrap_content"-->
+            <!--            android:layout_height="match_parent"-->
+            <!--            android:text=" " />-->
 
-        <TextView android:layout_height="match_parent" android:layout_width="wrap_content" android:id="@+id/units8"/>
+            <!--        <TextView android:layout_height="match_parent" android:layout_width="wrap_content" android:id="@+id/units12"/>-->
 
-        <TextView
-            android:id="@+id/textView37"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:text=" " />
+            <!--        <TextView-->
+            <!--            android:id="@+id/textView46"-->
+            <!--            android:layout_width="wrap_content"-->
+            <!--            android:layout_height="match_parent"-->
+            <!--            android:text=" " />-->
 
-        <TextView android:layout_height="match_parent" android:layout_width="wrap_content" android:text="" android:layout_weight=".3" android:id="@+id/ingredient8" android:hint="ingredient name"/>
+            <!--        <TextView android:layout_height="match_parent" android:layout_width="wrap_content" android:text="" android:layout_weight=".3" android:id="@+id/ingredient12" android:hint="ingredient name"/>-->
 
-</LinearLayout>
+            <!--</LinearLayout>-->
 
 
-    <LinearLayout android:orientation="horizontal" android:layout_height="match_parent" android:layout_width="match_parent">
+            <!--    <LinearLayout android:orientation="horizontal" android:layout_height="match_parent" android:layout_width="match_parent">-->
 
-        <TextView android:layout_height="match_parent" android:layout_width="wrap_content" android:text="0" android:id="@+id/wholeNumber9" android:inputType="number"/>
+            <!--        <TextView android:layout_height="match_parent" android:layout_width="wrap_content" android:text="0" android:id="@+id/wholeNumber13" android:inputType="number"/>-->
 
-        <TextView
-            android:id="@+id/textView11"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:text=" " />
+            <!--        <TextView-->
+            <!--            android:id="@+id/textView47"-->
+            <!--            android:layout_width="wrap_content"-->
+            <!--            android:layout_height="match_parent"-->
+            <!--            android:text=" " />-->
 
-        <TextView android:layout_height="match_parent" android:layout_width="wrap_content" android:text="0" android:id="@+id/topHalf9" android:inputType="number"/>
+            <!--        <TextView android:layout_height="match_parent" android:layout_width="wrap_content" android:id="@+id/units13"/>-->
 
-    <TextView android:layout_height="match_parent" android:layout_width="wrap_content" android:textSize="36sp" android:text="/" android:id="@+id/divide9"/>
+            <!--        <TextView-->
+            <!--            android:id="@+id/textView48"-->
+            <!--            android:layout_width="wrap_content"-->
+            <!--            android:layout_height="match_parent"-->
+            <!--            android:text=" " />-->
 
-    <TextView android:layout_height="match_parent" android:layout_width="wrap_content" android:text="0" android:id="@+id/bottomHalf9" android:inputType="number"/>
+            <!--        <TextView android:layout_height="match_parent" android:layout_width="wrap_content" android:text="" android:layout_weight=".3" android:id="@+id/ingredient13" android:hint="ingredient name"/>-->
 
-        <TextView
-            android:id="@+id/textView39"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:text=" " />
+            <!--</LinearLayout>-->
 
-        <TextView android:layout_height="match_parent" android:layout_width="wrap_content" android:id="@+id/units9"/>
 
-        <TextView
-            android:id="@+id/textView40"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:text=" " />
+            <!--    <LinearLayout android:orientation="horizontal" android:layout_height="match_parent" android:layout_width="match_parent">-->
 
-        <TextView android:layout_height="match_parent" android:layout_width="wrap_content" android:text="" android:layout_weight=".3" android:id="@+id/ingredient9" android:hint="ingredient name"/>
+            <!--        <TextView android:layout_height="match_parent" android:layout_width="wrap_content" android:text="0" android:id="@+id/wholeNumber14" android:inputType="number"/>-->
 
-</LinearLayout>
+            <!--        <TextView-->
+            <!--            android:id="@+id/textView49"-->
+            <!--            android:layout_width="wrap_content"-->
+            <!--            android:layout_height="match_parent"-->
+            <!--            android:text=" " />-->
 
+            <!--        <TextView android:layout_height="match_parent" android:layout_width="wrap_content" android:id="@+id/units14"/>-->
 
-    <LinearLayout android:orientation="horizontal" android:layout_height="match_parent" android:layout_width="match_parent">
+            <!--        <TextView-->
+            <!--            android:id="@+id/textView50"-->
+            <!--            android:layout_width="wrap_content"-->
+            <!--            android:layout_height="match_parent"-->
+            <!--            android:text=" " />-->
 
-        <TextView android:layout_height="match_parent" android:layout_width="wrap_content" android:text="0" android:id="@+id/wholeNumber10" android:inputType="number"/>
+            <!--        <TextView android:layout_height="match_parent" android:layout_width="wrap_content" android:text="" android:layout_weight=".3" android:id="@+id/ingredient14" android:hint="ingredient name"/>-->
 
-        <TextView
-            android:id="@+id/textView12"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:text=" " />
+            <!--</LinearLayout>-->
 
-        <TextView android:layout_height="match_parent" android:layout_width="wrap_content" android:text="0" android:id="@+id/topHalf10" android:inputType="number"/>
 
-    <TextView android:layout_height="match_parent" android:layout_width="wrap_content" android:textSize="36sp" android:text="/" android:id="@+id/divide10"/>
+            <!--    <LinearLayout android:orientation="horizontal" android:layout_height="wrap_content" android:layout_width="match_parent">-->
 
-    <TextView android:layout_height="match_parent" android:layout_width="wrap_content" android:text="0" android:id="@+id/bottomHalf10" android:inputType="number"/>
+            <!--        <TextView android:layout_height="match_parent" android:layout_width="wrap_content" android:text="0" android:id="@+id/wholeNumber15" android:inputType="number"/>-->
 
-        <TextView
-            android:id="@+id/textView41"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:text=" " />
+            <!--        <TextView-->
+            <!--            android:id="@+id/textView51"-->
+            <!--            android:layout_width="wrap_content"-->
+            <!--            android:layout_height="match_parent"-->
+            <!--            android:text=" " />-->
 
-        <TextView android:layout_height="match_parent" android:layout_width="wrap_content" android:id="@+id/units10"/>
+            <!--        <TextView android:layout_height="match_parent" android:layout_width="wrap_content" android:id="@+id/units15"/>-->
 
-        <TextView
-            android:id="@+id/textView42"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:text=" " />
+            <!--        <TextView-->
+            <!--            android:id="@+id/textView52"-->
+            <!--            android:layout_width="wrap_content"-->
+            <!--            android:layout_height="match_parent"-->
+            <!--            android:text=" " />-->
 
-        <TextView android:layout_height="match_parent" android:layout_width="wrap_content" android:text="" android:layout_weight=".3" android:id="@+id/ingredient10" android:hint="ingredient name"/>
+            <!--        <TextView android:layout_height="match_parent" android:layout_width="wrap_content" android:text="" android:layout_weight=".3" android:id="@+id/ingredient15" android:hint="ingredient name"/>-->
 
-</LinearLayout>
+            <!--</LinearLayout>-->
 
+            <!--</LinearLayout>-->
 
-    <LinearLayout android:orientation="horizontal" android:layout_height="match_parent" android:layout_width="match_parent">
+            <!--</LinearLayout>-->
 
-        <TextView android:layout_height="match_parent" android:layout_width="wrap_content" android:text="0" android:id="@+id/wholeNumber11" android:inputType="number"/>
+            <TextView
+                android:id="@+id/direct"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Directions:"
+                android:textAlignment="center"
+                android:textSize="36sp" />
 
-        <TextView
-            android:id="@+id/textView13"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:text=" " />
+            <TextView
+                android:id="@+id/directions"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="" />
 
-        <TextView android:layout_height="match_parent" android:layout_width="wrap_content" android:text="0" android:id="@+id/topHalf11" android:inputType="number"/>
+            <TextView
+                android:id="@+id/Ingredients"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ingredients"
+                android:textSize="36sp" />
 
-    <TextView android:layout_height="match_parent" android:layout_width="wrap_content" android:textSize="36sp" android:text="/" android:id="@+id/divide11"/>
+            <TextView
+                android:id="@+id/ingredientList"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
 
-    <TextView android:layout_height="match_parent" android:layout_width="wrap_content" android:text="0" android:id="@+id/bottomHalf11" android:inputType="number"/>
-
-        <TextView
-            android:id="@+id/textView43"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:text=" " />
-
-        <TextView android:layout_height="match_parent" android:layout_width="wrap_content" android:id="@+id/units11"/>
-
-        <TextView
-            android:id="@+id/textView44"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:text=" " />
-
-        <TextView android:layout_height="match_parent" android:layout_width="wrap_content" android:text="" android:layout_weight=".3" android:id="@+id/ingredient11" android:hint="ingredient name"/>
-
-</LinearLayout>
-
-
-    <LinearLayout android:orientation="horizontal" android:layout_height="match_parent" android:layout_width="match_parent">
-
-        <TextView android:layout_height="match_parent" android:layout_width="wrap_content" android:text="0" android:id="@+id/wholeNumber12" android:inputType="number"/>
-
-        <TextView
-            android:id="@+id/textView14"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:text=" " />
-
-        <TextView android:layout_height="match_parent" android:layout_width="wrap_content" android:text="0" android:id="@+id/topHalf12" android:inputType="number"/>
-
-    <TextView android:layout_height="match_parent" android:layout_width="wrap_content" android:textSize="36sp" android:text="/" android:id="@+id/divide12"/>
-
-    <TextView android:layout_height="match_parent" android:layout_width="wrap_content" android:text="0" android:id="@+id/bottomHalf12" android:inputType="number"/>
-
-        <TextView
-            android:id="@+id/textView45"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:text=" " />
-
-        <TextView android:layout_height="match_parent" android:layout_width="wrap_content" android:id="@+id/units12"/>
-
-        <TextView
-            android:id="@+id/textView46"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:text=" " />
-
-        <TextView android:layout_height="match_parent" android:layout_width="wrap_content" android:text="" android:layout_weight=".3" android:id="@+id/ingredient12" android:hint="ingredient name"/>
-
-</LinearLayout>
-
-
-    <LinearLayout android:orientation="horizontal" android:layout_height="match_parent" android:layout_width="match_parent">
-
-        <TextView android:layout_height="match_parent" android:layout_width="wrap_content" android:text="0" android:id="@+id/wholeNumber13" android:inputType="number"/>
-
-        <TextView
-            android:id="@+id/textView15"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:text=" " />
-
-        <TextView android:layout_height="match_parent" android:layout_width="wrap_content" android:text="0" android:id="@+id/topHalf13" android:inputType="number"/>
-
-    <TextView android:layout_height="match_parent" android:layout_width="wrap_content" android:textSize="36sp" android:text="/" android:id="@+id/divide13"/>
-
-    <TextView android:layout_height="match_parent" android:layout_width="wrap_content" android:text="0" android:id="@+id/bottomHalf13" android:inputType="number"/>
-
-        <TextView
-            android:id="@+id/textView47"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:text=" " />
-
-        <TextView android:layout_height="match_parent" android:layout_width="wrap_content" android:id="@+id/units13"/>
-
-        <TextView
-            android:id="@+id/textView48"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:text=" " />
-
-        <TextView android:layout_height="match_parent" android:layout_width="wrap_content" android:text="" android:layout_weight=".3" android:id="@+id/ingredient13" android:hint="ingredient name"/>
-
-</LinearLayout>
-
-
-    <LinearLayout android:orientation="horizontal" android:layout_height="match_parent" android:layout_width="match_parent">
-
-        <TextView android:layout_height="match_parent" android:layout_width="wrap_content" android:text="0" android:id="@+id/wholeNumber14" android:inputType="number"/>
-
-        <TextView
-            android:id="@+id/textView16"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:text=" " />
-
-        <TextView android:layout_height="match_parent" android:layout_width="wrap_content" android:text="0" android:id="@+id/topHalf14" android:inputType="number"/>
-
-    <TextView android:layout_height="match_parent" android:layout_width="wrap_content" android:textSize="36sp" android:text="/" android:id="@+id/divide14"/>
-
-    <TextView android:layout_height="match_parent" android:layout_width="wrap_content" android:text="0" android:id="@+id/bottomHalf14" android:inputType="number"/>
-
-        <TextView
-            android:id="@+id/textView49"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:text=" " />
-
-        <TextView android:layout_height="match_parent" android:layout_width="wrap_content" android:id="@+id/units14"/>
-
-        <TextView
-            android:id="@+id/textView50"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:text=" " />
-
-        <TextView android:layout_height="match_parent" android:layout_width="wrap_content" android:text="" android:layout_weight=".3" android:id="@+id/ingredient14" android:hint="ingredient name"/>
-
-</LinearLayout>
-
-
-    <LinearLayout android:orientation="horizontal" android:layout_height="wrap_content" android:layout_width="match_parent">
-
-        <TextView android:layout_height="match_parent" android:layout_width="wrap_content" android:text="0" android:id="@+id/wholeNumber15" android:inputType="number"/>
-
-        <TextView
-            android:id="@+id/textView17"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:text=" " />
-
-        <TextView android:layout_height="match_parent" android:layout_width="wrap_content" android:text="0" android:id="@+id/topHalf15" android:inputType="number"/>
-
-    <TextView android:layout_height="match_parent" android:layout_width="wrap_content" android:textSize="36sp" android:text="/" android:id="@+id/divide15"/>
-
-    <TextView android:layout_height="match_parent" android:layout_width="wrap_content" android:text="0" android:id="@+id/bottomHalf15" android:inputType="number"/>
-
-        <TextView
-            android:id="@+id/textView51"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:text=" " />
-
-        <TextView android:layout_height="match_parent" android:layout_width="wrap_content" android:id="@+id/units15"/>
-
-        <TextView
-            android:id="@+id/textView52"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:text=" " />
-
-        <TextView android:layout_height="match_parent" android:layout_width="wrap_content" android:text="" android:layout_weight=".3" android:id="@+id/ingredient15" android:hint="ingredient name"/>
-
-</LinearLayout>
-
-</LinearLayout>
-
-</LinearLayout>
-
-    <TextView android:layout_height="wrap_content" android:layout_width="match_parent" android:textSize="36sp" android:text="Directions:" android:id="@+id/direct" android:textAlignment="center"/>
-
-    <TextView android:layout_height="wrap_content" android:layout_width="match_parent" android:text="" android:id="@+id/directions"/>
-
-</LinearLayout>
+        </LinearLayout>
 
 </ScrollView>
 
