@@ -145,21 +145,21 @@ class YourRecipes : AppCompatActivity() {
                 if(checked != "text"){
                     //            test lines
                     Log.d("item checked", checked.toUpperCase())
-                    Log.d("item cat", recipes[0].categories[0].toUpperCase())
+                    Log.d("item cat", recipes[0].category.toUpperCase())
 
 //            TODO FILTER INSTEAD OF BUTTON SEARCH
                     for (index in 0..recipes.size - 1) {
                         item.text.toString().toUpperCase()
 //                Matches recipe names to search typed in
                         if (( recipes[index].title.toUpperCase().contains(item.text.toString().toUpperCase())
-                                    && recipes[index].categories[0].toUpperCase() == checked.toUpperCase())
-                            || recipes[index].categories[0].toUpperCase() == checked.toUpperCase()
+                                    && recipes[index].category.toUpperCase() == checked.toUpperCase())
+                            || recipes[index].category.toUpperCase() == checked.toUpperCase()
                             && checkIngredients(item, recipes[index]) == true
                         ) {
 //                    Test lines not important
                             Log.d("item", item.text.toString().toUpperCase())
                             Log.d("a", recipes[index].title)
-                            Log.d("a", recipes[index].categories[0])
+                            Log.d("a", recipes[index].category)
                             Log.d("checked", checked.toUpperCase())
 //                    reveals any buttons that are hidden that apply to search
                             showButtons(buttons, index)
@@ -178,7 +178,7 @@ class YourRecipes : AppCompatActivity() {
 //                    Test lines not important
                             Log.d("item", item.text.toString().toUpperCase())
                             Log.d("a", recipes[index].title)
-                            Log.d("a", recipes[index].categories[0])
+                            Log.d("a", recipes[index].category)
                             Log.d("checked", checked.toUpperCase())
 //                    reveals any buttons that are hidden that apply to search
                             showButtons(buttons, index)
@@ -233,7 +233,7 @@ class YourRecipes : AppCompatActivity() {
 
     fun filterRecipeList(rB:List<Button>, cat:String): Boolean {
         for (index in 0..recipes.size - 1) {
-            if(recipes[index].categories[0] == cat){
+            if(recipes[index].category == cat){
                 showButtons(rB, index)
             }else{
                 hideButtons(rB, index)
