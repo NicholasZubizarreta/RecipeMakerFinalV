@@ -36,9 +36,10 @@ class DatabaseHandler(context: Context) :
 
         val CREATE_TABLE = "CREATE TABLE $TABLE_NAME " +
                "($ID Integer PRIMARY KEY, $CATEGORY TEXT, $TITLE TEXT, $SERVINGS Integer, $DIRECTIONS TEXT)"
+
         db?.execSQL(CREATE_TABLE)
         val CREATE_TABLE2 = "CREATE TABLE $I_TABLE_NAME " +
-                "($INGRED_ID Integer PRIMARY KEY, $RECIPE_ID Integer, $WHOLE_NUM Integer, $UNIT TEXT, $INGREDIENT TEXT)"
+                "($INGRED_ID Integer PRIMARY KEY, $RECIPE_ID Integer, $WHOLE_NUM Float, $UNIT TEXT, $INGREDIENT TEXT)"
        db?.execSQL(CREATE_TABLE2) }
 
     override fun onUpgrade(db: SQLiteDatabase?, oldVersion: Int, newVersion: Int) {
@@ -108,7 +109,7 @@ class DatabaseHandler(context: Context) :
 
                                 var ingredientid = ingredientscursor.getString(ingredientscursor.getColumnIndex(INGRED_ID))
                                 var recipe_id = ingredientscursor.getString(ingredientscursor.getColumnIndex(RECIPE_ID)).toInt()
-                                var whole_num = ingredientscursor.getString(ingredientscursor.getColumnIndex(WHOLE_NUM)).toInt()
+                                var whole_num = ingredientscursor.getString(ingredientscursor.getColumnIndex(WHOLE_NUM)).toFloat()
                                 var unit = ingredientscursor.getString(ingredientscursor.getColumnIndex(UNIT))
                                 var ingredient = ingredientscursor.getString(ingredientscursor.getColumnIndex(INGREDIENT))
                                 if (recipe_id == id) {
